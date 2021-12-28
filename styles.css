@@ -1,0 +1,417 @@
+body {
+  background-color: #F9F9F9;
+}
+
+.container {
+  width: 75%;
+}
+
+.delicious-custom {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 2rem;
+  letter-spacing: -1px;
+  color: #FF784D;
+  font-weight: 500;
+}
+
+#landing-page .container {
+  padding: 0
+}
+
+p {
+  /* color: #8F969F; */
+  color: #616161;
+  padding: 5vh 0;
+  font-family: 'Alegreya Sans', sans-sans-serif;
+  font-weight: 300;
+}
+
+#landing-page h1 {
+  color: #454B52;
+  padding-top: 20vh;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 3rem;
+  font-weight: 500;
+  text-decoration: bold;
+}
+
+a{
+  text-decoration: none;
+  text-decoration: bold;
+  color: #000;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #FF784F;
+}
+
+.delicious-custom:hover{
+  color: #000;
+}
+
+button {
+  background-color: #FF784F;
+  color: #fff;
+  border: solid 1px white;
+  padding: 10px 30px;
+}
+
+button:hover {
+  /* transform: scaleX(1.2); */
+  background-color: #FAE5DF;
+  color: #FC8C67;
+}
+
+#about {
+  margin-top: 40vh;
+}
+
+#about h1 {
+  margin: 10vh 0;
+}
+
+#about .row>* {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.card-1 {
+  margin: 10vh 0 5vh;
+  width: 90%;
+  height: auto;
+  background-color: #FFC527;
+}
+
+.card-2 {
+  margin-left: 0;
+  margin-bottom: 10vh;
+  width: 90%;
+  height: auto;
+  background-color: #FF5252;
+}
+
+.card-3 {
+  margin-bottom: 5vh;
+  margin-left: 0;
+  width: 90%;
+  height: auto;
+  background-color: #4680FF;
+}
+
+.card-4 {
+  margin-bottom: 10vh;
+  margin-left: 0;
+  width: 90%;
+  height: auto;
+  background-color: #11C788;
+}
+
+#about h2 {
+  font-size: 2.3rem;
+  margin-top: 25vh;
+}
+
+.col-6 .container {
+  padding: 0
+}
+
+.btn-custom {
+  background-color: #FAE5DF;
+  color: #FC8C67;
+}
+
+.btn-custom:hover {
+  background-color: #FF784F;
+  color: #fff;
+}
+
+#menu {
+  background-color: #fff;
+}
+
+.icon-custom{
+  width: 50px;
+  height: 50px;
+  color:white;
+  margin-top: 30px;
+  font-size: 2rem;
+}
+
+.card-1 .icon-custom {
+  background-color: #FFCD48;
+}
+
+.card-2 .icon-custom {
+  background-color: #FF6C6C;
+}
+
+.card-3 .icon-custom {
+  background-color: #6293FF;
+}
+
+.card-4 .icon-custom {
+  background-color: #35CF9A;
+}
+
+.card-h5 {
+  color: #fff;
+  padding: 3vh 0 1vh;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  padding: 0;
+  font-weight: 500;
+  color: #fff;
+  opacity: 0.8;
+  padding-bottom: 20px;
+}
+
+.first-container {
+  padding-top: 20vh;
+}
+
+#menu p {
+  margin: 20px 20%;
+  padding: 0;
+}
+
+#menu a {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+#menu .second-container {
+  margin-top: 50px;
+  padding: 0;
+}
+
+#menu .indicator {
+  width: 100%;
+  margin:
+}
+
+.indicator hr {
+  margin: 0;
+  padding: 0;
+}
+
+hr.rounded {
+  margin: 8px 0;
+  padding-top: 1px;
+  border-top: 1px solid #F1F1F1;
+  border-radius: 1px;
+  opacity: 0.3;
+}
+
+#menu h3 {
+  font-size: 1.4rem;
+}
+
+#menu a {
+  font-size: 1.4rem;
+}
+
+.card {
+  width: 100%;
+}
+
+#menu img {
+  height: 15rem;
+}
+
+.recipe-container {
+  margin-top: 50px;
+}
+
+.box-shadow {
+  box-shadow: 5px 5px 5px 5px #E9E9E9;
+}
+
+#menu h4 {
+  font-size: 1.2rem;
+}
+
+.price-tag {
+  color: #FF784F;
+}
+
+#menu .tag-list a{
+  font-size: 1rem;
+  padding: 0 15px;
+}
+
+.tag-1 {
+  background-color: #FFF6DE;
+  color: #FECB40;
+  border-radius: 20px;
+}
+
+.tag-2 {
+  background-color: #E2EDFF;
+  color: #5087FF;
+  border-radius: 20px;
+}
+
+.tag-3 {
+  background-color: #D9F6EE;
+  color: #18C98C;
+  border-radius: 20px;
+}
+
+.arrow {
+  padding: 100px 0;
+}
+
+.fa-arrow-left, .fa-arrow-right {
+  color: #89888D;
+}
+
+
+#chef .container {
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+  padding: 0;
+}
+
+.chef-text {
+  padding: 150px 50px 150px 0;
+}
+
+.chef-text h2 {
+  width: 70vh;
+}
+
+.chef-text p {
+  width: 60vh;
+}
+
+#chef .card-row .row>*{
+  padding-left: 0;
+}
+
+.chef-card {
+  width: 14rem;
+  height: 17rem;
+  margin: 0;
+}
+
+.chef-name {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.chef-title {
+  padding: 0;
+  font-weight: 500;
+}
+
+.second-chef {
+  margin-top: 30px;
+}
+
+.third-chef {
+  padding-top: 25vh;
+}
+
+.fb-twitter-container {
+  width: 40%;
+}
+
+.fa-facebook {
+  font-size: 25px;
+  color: #3FABFA;
+  /* color: #DAF5F1; */
+}
+
+.fa-twitter {
+  font-size: 25px;
+  color: #13BDC1;
+}
+
+#customer-feedback {
+  background-color: white;
+}
+
+#customer-feedback p {
+  padding-top: 50px;
+  width: 80vh;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.img-customer {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.enlarge {
+  width: 70px;
+  height: 70px;
+  border: 5px solid #FFEAE5;
+  margin: 0 10px;
+}
+
+.customer-name-container {
+  padding-bottom: 10vh;
+}
+
+#cta {
+  padding: 10vh 0;
+  background-color: #FF784F;
+}
+
+#cta h2 {
+  color:white
+}
+
+#cta button {
+  background-color: #fff;
+  color: #FF784F;
+}
+
+#cta button:hover {
+  background-color: #FFAD4F;
+  color: #fff;
+}
+
+footer {
+  padding: 10vh 0;
+  background-color: #fff;
+}
+
+#contact .row>* {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.footer-logo {
+  color: #889099;
+}
+
+.grey-p {
+  color: #969BA3;
+  font-weight: 400;
+}
+
+.input-custom {
+  height: 100%;
+  width: 50vh;
+  padding: 0;
+  background-color: #F9F9F9;
+  border-color: transparent;
+}
+
+input[type="email"]::placeholder {
+  font-size: 14px;
+  color: #A1A6AE;
+  /* font-weight: bold; */
+  padding-left: 10px;
+}
+/*Must include type="text" in HTML*/

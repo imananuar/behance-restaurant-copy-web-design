@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Restaurant Landing Page</title>
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500&family=Exo+2:ital,wght@0,200;0,500;1,300;1,500&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <!-- CSS Local Files -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!-- Navbar and Main -->
+    <header id='header'>
+      <nav class="navbar navbar-expand navbar-light">
+        <div class="container justify-content-start px-0">
+          <a class="delicious-custom me-5 mt-3" href="#">Delicious</a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="nav-custom navbar-collapse collapse" id="navbarCollapse">
+            <ul class="navbar-nav">
+              <li class="mx-3 pt-4">
+                <a href="home">Home</a>
+              </li>
+              <li class="mx-3 pt-4">
+                <a href="about">About</a>
+              </li>
+              <li class="mx-3 pt-4">
+                <a href="menu">Menu</a>
+              </li>
+              <li class="mx-3 pt-4">
+                <a href="chef">Chef</a>
+              </li>
+              <li class='mx-3 pt-4'>
+                <a href="review">Review</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Landing Page Section -->
+    <section id="landing-page">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-sm-12 col-xs-12">
+            <h1>Don't Be Eye Candy </br>Be Soul Food.</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <button type="button" name="button">Book a Table</button>
+          </div>
+          <div class="col-6">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <div class="container card-1 box-shadow">
+              <i class="fas fa-utensils icon-custom text-center "></i>
+              <h5 class='card-h5'>Quality Foods</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="container card-2 box-shadow">
+              <i class="fas fa-dollar-sign icon-custom text-center"></i>
+              <h5 class='card-h5'>Reasonable Price</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div class="container card-3 box-shadow">
+              <i class="fas fa-truck icon-custom text-center"></i>
+              <h5 class='card-h5'>Fastest Delivery</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="container card-4 box-shadow">
+              <i class="fas fa-book icon-custom text-center"></i>
+              <h5 class='card-h5'>Original Recipe</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="container">
+              <h2 class="p-0">We are specialized in spicy modern food</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <button type="button" name="button" class="btn-custom">Book a Table</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu">
+      <div class="container first-container text-center">
+        <h1>Hot Selling Recipe</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+
+      <!-- Breakfast, Lunch & Dinner-->
+      <div class="container second-container text-center">
+        <div class="row">
+          <div class="col-4">
+            <a href="">Breakfast</a>
+          </div>
+          <div class="col-4">
+            <a href="">Lunch</a>
+          </div>
+          <div class="col-4">
+            <a href="">Dinner</a>
+          </div>
+        </div>
+
+        <!-- Indicator -->
+        <div class="indicator">
+          <hr class="rounded">
+        </div>
+      </div>
+
+      <!-- Food Display -->
+      <div class="container p-0 recipe-container">
+        <div class="row">
+          <div class="col-4">
+            <div class="card box-shadow">
+              <img src="assets\roti_canai.jpg" class="card-img-top" alt="...">
+              <div class="card-body d-flex justify-content-between">
+                <h3 class="card-title d-inline-flex m-0 text-start">Roti Canai</h3>
+                <h4 class="card-title d-inline-flex price-tag">RM 2</h4>
+              </div>
+              <div class="d-flex justify-content-evenly tag-list mb-4">
+                <a class="d-inline-flex tag-1" href="#">Curry</a>
+                <a class="d-inline-flex tag-2" href="#">Bread</a>
+                <a class="d-inline-flex tag-3" href="#">Egg</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card box-shadow">
+              <img src="assets\nasi_kerabu.jpg" class="card-img-top" alt="...">
+              <div class="card-body d-flex justify-content-between">
+                <h3 class="card-title m-0 text-start">Nasi Kerabu</h3>
+                <h4 class=" card-title price-tag">RM 8</h4>
+              </div>
+              <div class="d-flex justify-content-evenly tag-list mb-4">
+                <a class="d-inline-flex tag-1" href="#">Chicken</a>
+                <a class="d-inline-flex tag-2" href="#">Rice</a>
+                <a class="d-inline-flex tag-3" href="#">Sambal</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card box-shadow">
+              <img src="assets\nasi_lemak.jpg" class="card-img-top" alt="...">
+              <div class="card-body d-flex justify-content-between">
+                <h3 class="card-title d-inline-flex m-0">Nasi Lemak</h3>
+                <h4 class=" card-title d-inline-flex price-tag">RM 6</h4>
+              </div>
+              <div class="d-flex justify-content-evenly tag-list mb-4">
+                <a class="d-inline-flex tag-1" href="#">Chicken</a>
+                <a class="d-inline-flex tag-2" href="#">Rice</a>
+                <a class="d-inline-flex tag-3" href="#">Anchovies</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Arrow -->
+      <div class="container arrow text-center">
+        <a class="me-4" href="#"><i class="fas fa-arrow-left"></i></a>
+        <a class="ms-4" href="#"><i class="fas fa-arrow-right"></i></a>
+      </div>
+    </section>
+
+    <!-- Chef Section -->
+    <section id="chef">
+      <div class="container">
+        <div class="row p-0 m-0">
+          <div class="col-6 chef-text">
+            <h2>Expert chefs for provide best food experience</h2>
+            <p class="py-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.</p>
+              <button type="button" name="button" class="btn-custom">Browse more</button>
+          </div>
+          <div class="col-6 m-0 p-0">
+
+            <div class="row m-0 p-0 justify-content-between card-row">
+              <div class="col-6 p-0">
+                <div class="card chef-card box-shadow">
+                  <img src="assets\mark-anthony.PNG" class="card-img-top" alt="...">
+                  <div class="card-body d-flex justify-content-between">
+                    <div class="container m-0">
+                      <h5 class="card-title chef-name">Mark Antony</h5>
+                      <p class="chef-title p-0 m-0">Head Chef</p>
+                    </div>
+                    <div class="container m-0 fb-twitter-container d-flex align-items-center justify-content-between">
+                      <i class="fab fa-facebook"></i>
+                      <i class="fab fa-twitter"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="card chef-card box-shadow second-chef">
+                  <img src="assets\haharry-kakane.PNG" class="card-img-top" alt="...">
+                  <div class="card-body d-flex justify-content-between">
+                    <div class="container m-0">
+                      <h5 class="card-title chef-name">Harry Kane</h5>
+                      <p class="chef-title p-0 m-0">Head Chef</p>
+                    </div>
+                    <div class="container m-0 fb-twitter-container d-flex align-items-center justify-content-between">
+                      <i class="fab fa-facebook"></i>
+                      <i class="fab fa-twitter"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6 third-chef">
+                <div class="card chef-card box-shadow">
+                  <img src="assets\maria-gracia.PNG" class="card-img-top" alt="...">
+                  <div class="card-body d-flex justify-content-between">
+                    <div class="container m-0">
+                      <h5 class="card-title chef-name">Maria Grace</h5>
+                      <p class="chef-title p-0 m-0">Head Chef</p>
+                    </div>
+                    <div class="container m-0 fb-twitter-container d-flex align-items-center justify-content-between">
+                      <i class="fab fa-facebook"></i>
+                      <i class="fab fa-twitter"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Customer Feedback -->
+    <section id="customer-feedback">
+      <div class="container first-container text-center">
+        <h2>Customer Feedback</h2>
+        <p class="customer-feedback-p ">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+          nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div class="container d-flex justify-content-center align-items-center">
+        <a class="me-4" href="#"><i class="fas fa-arrow-left arrow-feedback"></i></a>
+        <img src="assets\person-1.jpg" class="img-customer" alt="">
+        <img src="assets\person-2.jpg" class="img-customer" alt="">
+        <img src="assets\person-3.jpg" class="img-customer enlarge" alt="">
+        <img src="assets\person-4.jpg" class="img-customer" alt="">
+        <img src="assets\person-5.jpg" class="img-customer" alt="">
+        <a class="ms-4" href="#"><i class="fas fa-arrow-right arrow-feedback"></i></a>
+      </div>
+      <div class="container text-center customer-name-container">
+        <h5 class="mt-5">Siti Hajah Laila</h5>
+        <p class="p-0 ms-auto">Office Cleaner</p>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta">
+      <div class="container cta-container text-center">
+        <h2 class="mb-5">Want to try our awesome foods?</h2>
+        <button type="button" name="button">Book a Table!</button>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <footer id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <a class="delicious-custom m-0 d-flex py-2" href="#">Delicious</a>
+            <div class="row mx-0">
+              <div class="col-1 pb-2">
+                <i class="fas fa-map-marker-alt d-flex-inline footer-logo"></i>
+              </div>
+              <div class="col-11 pb-2">
+                <p class="p-0 ps-2 m-0 grey-p"><span style="font-weight: bold;">Address:</span> 123, Road 456, </br> Kuala Lumpur, Malaysia</p>
+              </div>
+              <div class="col-1">
+                <i class="fas fa-phone d-flex-inline footer-logo"></i>
+              </div>
+              <div class="col-11">
+                <p class="p-0 ps-2 m-0 grey-p"><span style="font-weight: bold;">Phone:</span> (603) 121-1212</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-2">
+            <h6 class="m-0 d-flex py-4">Company</h6>
+            <div class="row mx-0">
+              <p class="p-0 m-0">News</p>
+              <p class="p-0 m-0">Events</p>
+              <p class="p-0 m-0">Career</p>
+            </div>
+          </div>
+          <div class="col-2">
+            <h6 class="m-0 d-flex py-4">Social</h6>
+            <div class="row mx-0">
+              <p class="p-0 m-0">Facebook</p>
+              <p class="p-0 m-0">Twitter</p>
+              <p class="p-0 m-0">LinkedIn</p>
+            </div>
+          </div>
+          <div class="col-5">
+            <h6 class="m-0 d-flex py-4">Subscribe Our Newsletter</h6>
+            <div class="row mx-0">
+              <div class="d-flex">
+                <input type="email" class="input-custom" id="emailInput" placeholder="Enter your email address">
+                <button type="button" name="button">Send</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  </body>
+</html>
